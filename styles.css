@@ -1,0 +1,49 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(62, 8, 83);
+}
+
+#container
+{
+    display: flexbox;
+ 
+    justify-content: center;
+    margin: 150px 0 0 500px;
+}
+
+#textfield
+{
+    width: 500px;
+    height: 50px;
+    border: 5px solid rgb(175, 153, 153) ;
+    background-color: rgb(13, 20, 20);
+    color: rgb(236, 216, 216);
+}
+
+#buttonSave
+{
+    margin-top: 20px;
+    margin-left: 120px;
+    padding: 5px 5px 5px 5px;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(92, 216, 189);
+    
+}
+
+#buttonRemove
+{
+
+    padding: 5px 5px 5px 5px;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(92, 216, 189);
+    
+}
